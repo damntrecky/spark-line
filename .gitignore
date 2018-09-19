@@ -1,0 +1,11 @@
+# Machine files
+.DS_Store
+.idea
+.vscode
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
