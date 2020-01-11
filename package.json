@@ -1,0 +1,29 @@
+{
+  "name": "spark-line-webcomponent",
+  "version": "1.0.0",
+  "description": "A simple webcomponent to inline spark lines inside framework components and other webcomponents.",
+  "main": "sparkLine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damntrecky/spark-line-webcomponent.git"
+  },
+  "keywords": [
+    "chart",
+    "sparkline",
+    "line",
+    "line",
+    "chart"
+  ],
+  "author": "Nick Ardecky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damntrecky/spark-line-webcomponent/issues"
+  },
+  "homepage": "https://github.com/damntrecky/spark-line-webcomponent#readme",
+  "dependencies": {
+    "@fnando/sparkline": "github:fnando/sparkline"
+  }
+}

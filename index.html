@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Spark Line | Web Components</title>
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <script type="module" src="/src/lineChart.js"></script>
+    <title>Spark Line Web Component</title>
 </head>
 <body>
   <h1>Spark Line Test</h1>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt praesentium rerum. Aspernatur necessitatibus optio, 
-    enim odio doloremque, numquam quae officiis repudiandae autem beatae iure nihil, velit itaque? Labore, quod.
-  </p>
+  <section>
+    <p>
+      This first example in the  most basic and minimum required code to 
+      render a spark line.
+    </p>
+    <pre><code>&lt;spark-line data="[2,9,15,22,33,45,55,13,19,22,31]"&gt;&lt;/spark-line&gt;</code></pre>
+    <spark-line data="[2,9,15,22,33,45,55,13,19,22,31]"></spark-line>
+    <hr>
+  </section>
 
-  <hr>
-  <spark-line data="[10,15,25,30,35]"></spark-line>
-  <hr>
+  <!-- <section>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt praesentium rerum. Aspernatur necessitatibus optio, 
+      enim odio doloremque, numquam quae officiis repudiandae autem beatae iure nihil, velit itaque? Labore, quod.
+    </p>
+    
+    <spark-line data="[10,15,25,30,35]" height="200" width="200" tooltip="false" line-width="3"></spark-line>
+    <hr>
+  </section>
+  
+  <section>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt praesentium rerum. Aspernatur necessitatibus optio, 
+      enim odio doloremque, numquam quae officiis repudiandae autem beatae iure nihil, velit itaque? Labore, quod.
+    </p>
+  </section> -->
 
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt praesentium rerum. Aspernatur necessitatibus optio, 
-    enim odio doloremque, numquam quae officiis repudiandae autem beatae iure nihil, velit itaque? Labore, quod.
-  </p>
-
-  <script type="text/javascript" src="sparkLine.js"></script>
+  <!-- Register component LAST -->
+  <script src="sparkLine.js" defer></script>
 </body>
 </html>
